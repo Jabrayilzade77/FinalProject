@@ -1,0 +1,197 @@
+
+
+.up_side_navbar {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 52px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  background-color: rgb(80, 80, 80);
+  color: white;
+  border-bottom: 1px solid black;
+  
+
+
+}
+
+.telefon{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.telefon:hover {
+  color: rgb(255, 115, 0);
+  cursor: pointer;
+
+}
+
+.wishlist {
+  max-width: 140px;
+  color: rgb(255, 255, 255);
+}
+
+.giris {
+  color: rgb(255, 255, 255);
+}
+
+.yardim {
+  color: rgb(255, 255, 255);
+}
+
+.navbar_list_container {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 72px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid black;
+  // background: #ff416c; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(
+  //   to right,
+  //   #ff4b2b,
+  //   #ff416c
+  // ); /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(
+  //   to right,
+  //   #ff4b2b,
+  //   #ff416c
+  // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-color: rgb(255, 255, 255);
+  a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  a:hover{
+    border-bottom: 2px solid orangered;
+  }
+}
+
+.carhaven_h2{
+
+}
+
+.fa-times{
+  display: none;
+}
+.new_btn {
+  max-width: 100px;
+  width: 100%;
+  min-height: 30px;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  i{
+    color: black;
+    font-size: 18px;
+  }
+}
+
+.fa-bars {
+  display: none;
+  font-size: 30px;
+  color: rgb(10, 10, 10);
+  
+}
+.fa-right-from-bracket{
+  font-size: 25px;
+  color: #ff4b2b;
+}
+
+.log_out_container{
+ max-width: 300px;
+ width: 100%;
+ gap: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ button{
+  max-width: 100px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(80, 80, 80);
+   
+ }
+}
+
+
+.navbar_list {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .fa-bars {
+    display: flex;
+  }
+
+  .up_side_navbar {
+    display: none;
+  }
+  .carhaven_h2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+.navbar_list.active{
+  border-top: 1px solid black;
+}
+  .fa-times{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-size: 40px;
+
+  }
+  .navbar_list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar_list.active {
+    display: flex;
+    width: -200px;
+     
+  }
+}
+
+// .fa-bars.active sınıfı eklenerek görünürlüğün kontrolü
+.fa-bars.active {
+  
+  // İstenilen stil ayarlarını ekleyin
+}

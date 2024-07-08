@@ -1,0 +1,66 @@
+.elan_yerlesdir{
+    max-width: 900px;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    margin: auto;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.input_container{
+    max-width: 900px;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+
+
+    label{
+        max-width: 400px;
+        width: 100%;
+        min-height: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Noto Sans", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    input{
+        width: 250px;
+        height: 40px;
+        margin: 10px;
+      
+        
+    }
+}
+
+
+.submit_div{
+    max-width: 100px;
+    width: 100%;
+    margin: auto;
+}
+.submit_btn{
+    max-width: 100px;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;;
+    background-color: green;
+    margin: 10px;
+}

@@ -1,0 +1,545 @@
+
+
+.main_container{
+    
+    width: 100%;
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.prosche_back_container{
+  background-image: url("https://media.evo.co.uk/image/upload/f_auto,t_content-image-full-desktop@1/v1577111832/evo/2019/12/McLaren%20Speedtail%20top%20speed-10.jpg");
+  max-width: 1350px;
+  width: 100%;
+  min-height: 450px;
+  background-position: 50% center top; 
+  background-size: cover;
+  position: relative;
+
+
+  .porsche_desc{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    padding-top: 20px;
+
+
+    .experience{
+      max-width:700px;
+      width: 100%;
+      font-size: 30px;
+      margin-top: 20px;
+      color: white;
+      display: flex;
+      justify-content: center;
+    }
+
+    .all_porsche{
+      max-width:700px;
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+    }
+
+    a{
+      color: white;
+      font-size: 20px;
+      max-width: 240px;
+      gap: 10px;
+      border-radius: 20px;
+      height: 40px;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      border: 1px solid white;
+    i{
+      background-color: white;
+      color: black;
+    }
+    }
+
+  }
+
+
+  .speed_tail{
+    max-width:700px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+
+  .as_low_as{
+    max-width:700px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.prosche_back_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah katman */
+  z-index: 1;
+}
+.cars_container{
+    max-width: 850px;
+    width: 100%;
+    min-height: 300px;
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+    background-color: rgb(233, 233, 233);
+}
+
+.premium_cars{
+    max-width: 1400px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.vip_cars{
+    max-width: 1400px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.elan_h1{
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    font-weight: 600;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.filter_backround{
+  width: 100%;
+  min-height: 230px;
+  padding-top: 10px;
+  background-color: #f3f3f3;
+  
+
+}
+
+.filter_container{
+    max-width: 900px;
+    width: 100%;
+    // height: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 20px;
+    box-shadow:3px 3px 3px  rgb(85, 85, 85);
+
+}
+
+.find_for_you{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.search_btn{
+  max-width: 150px;
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-angle-right{
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: orangered;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter_group{
+    max-width:200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    select{
+        margin: 5px;
+        max-width: 90px;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        color: #6d6d6d;
+    }
+
+ 
+
+    input{
+        margin: 5px;
+        max-width: 90px;
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+    }
+}
+
+.qiymet_inputu{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    input{
+    max-width: 90px;
+    width: 100%;
+    height: 40px;
+
+}
+    
+}
+
+.for_sale{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.dashed_border_div{
+  max-width: 260px;
+  width: 100%;
+  margin: auto; 
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+
+}
+.cars_card{
+
+    max-width: 300px;
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    background-color: white;
+
+    
+    
+}
+
+
+.desc_auto{
+    padding-left: 15px;
+}
+.price{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+.model{
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.il_motor_km{
+    height: 30px;
+    font-family: "Noto Sans", sans-serif;
+    color: black;
+}
+.delete_btn{
+  cursor: pointer;
+  max-width: 100px;
+  gap: 5px;
+  margin-left: 30px;
+
+}
+
+// .detail_and_delete_btn{
+
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+.title{
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.desc{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.detail_btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 6px;
+    background-color: green;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 120px;
+    width: 100%;
+    height: 35px;
+
+    a{
+    color: white;
+
+    }
+}
+
+
+.product-card {
+    // cursor: pointer;
+    max-width: 300px;
+    width: 100%;
+    // padding: 16px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-family: "Arial", sans-serif;
+  
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+  
+      h2 {
+        max-width: 190px;
+        width: 100%;
+        border: 1px solid black;
+
+        font-size: 23px;
+        color: #333;
+        padding: 5px 5px 5px 10px;
+        border-radius: 10px;
+      }
+  
+      .favorite-icon {
+        max-width: 40px;
+        width: 100%;
+        height: 20px;
+        padding: 30px;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ff6f61;
+        cursor: pointer;
+      }
+    }
+  
+    .card-image {
+      border-radius: 8px;
+      max-width: 300px;
+      width: 100%;
+      min-height: 180px;
+  
+   
+      .cars_image {
+        border-radius: 8px;
+        max-width: 300px;
+        width: 100%;
+        min-height: 200px;
+        border: 2px solid black;
+      }
+    }
+  
+    .card-footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+  
+      p {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: #333;
+        padding: 0px 0px 10px 0px ;
+      }
+  
+      button {
+        width: 100%;
+        height: 50px;
+        padding: 8px 16px;
+        background-color: #333;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        a {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 600;
+        }
+  
+        &:hover {
+          background-color: rgb(184, 13, 13);
+        }
+      }
+    }
+  }
+
+
+  .car_light_container{
+    background-image: url("https://cms.webuyanycar.com/globalassets/images/car-magazine/2017-11-wick-mustang.jpg") ;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 200px;
+    background-position: center;
+    background-size: contain;
+
+  }
+
+
+  .customer_reviews_p{
+    height: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.customer_alt_xett{
+  max-width: 210px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-bottom: 2px dashed black;
+}
+  .customer_img_and_desc{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 110px;
+    padding-top: 20px;
+
+  }
+
+  .customer_img{
+    overflow: hidden;
+    min-height: 170px;
+   img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+   }
+  }
+
+  .customer_desc{
+    text-align: left;
+    min-height: 170px;
+    padding-bottom: 13px;
+  }
+  .emil_m{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    height: 10px;
+  }
+
+  .emil_s_car{
+    font-size: 17px;
+    font-weight: 600;
+
+  }
+  .emil_s_review{
+    max-width: 600px;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 600;
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .emil_m_car_buy{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  @media screen and (max-width:600px) {
+    .prosche_back_container{
+      padding-left: 0px;
+    }
+  }
+
+  @media screen and (max-width:345px) {
+
+    .customer_img{
+      min-height: 80px;
+      img{
+        
+      }
+    }
+    .emil_s_review{
+      margin-top: 160px;
+    }
+  }
